@@ -1,0 +1,6 @@
+# Python example
+*.pyc
+__pycache__/
+.env
+.vscode/
+*.log
