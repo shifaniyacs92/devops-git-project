@@ -6,5 +6,8 @@ match op:
     case '+':
         result = a+b
         print("sum of",a,"and",b,"is",result)
+    case '-':
+        result = a-b
+        print("diff of",a,"and",b,"is",result)
     case _:
         print("invalid operator")
