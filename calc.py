@@ -12,5 +12,8 @@ match op:
     case '*':
         result = a*b
         print("multiplication of",a,"and",b,"is",result)
+    case '/':
+        result = a/b
+        print("division of",a,"and",b,"is",result)
     case _:
         print("invalid operator")
